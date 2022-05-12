@@ -111,7 +111,7 @@
     position: relative;
     background: white;
     color: black;
-    z-index: 5;
+    z-index: 10;
 }
 .button-catalog--active::before{
     position: absolute;
