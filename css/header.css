@@ -108,6 +108,8 @@
 
 
 .button-catalog--active{
+    display: flex;
+    justify-content: center;
     position: relative;
     background: white;
     color: black;
@@ -116,9 +118,9 @@
 .button-catalog--active::before{
     position: absolute;
     content: "\00D7";
-    left: 20px;
+    left: 30%;
+    right: 70%;
     font-size: 1.6em;
-    margin-left: 17%;
 }
 .button-catalog--active:hover{
     background: white;
@@ -323,7 +325,7 @@
     align-items: center;
 }
 
-.btn-menu-common {
+.menu-hamburger {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -337,25 +339,25 @@
     margin-right: 20px;
 }
 
-.btn-menu-common__hamburger-common {
+.menu-hamburger__column {
     width: 22px;
     display: flex;
     flex-direction: column;
     margin-right: 17px;
 }
 
-.btn-menu-common__line-common {
+.menu-hamburger__line {
     width: 100%;
     height: 3px;
     border-radius: 0.7px;
     background: #222222;
 }
 
-.btn-menu-common__line-common:nth-child(2) {
+.menu-hamburger__line:nth-child(2) {
     margin: 3px 0;
 }
 
-.btn-menu-common__line-common:last-child {
+.menu-hamburger__line:last-child {
     width: 60%;
 }
 
